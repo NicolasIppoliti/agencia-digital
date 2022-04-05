@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="545" height="66" viewBox="0 0 545 66">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 75px;
+        fill: #102136;
+        font-family: Montserrat;
+      }
+
+      .cls-1 {
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <text id="ESPACIO" class="cls-1" x="-6.805" y="64.003">ESPACIO</text>
+  <text id="WEB" class="cls-2" x="355.195" y="64.003">WEB</text>
+</svg>
