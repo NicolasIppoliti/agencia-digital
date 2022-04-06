@@ -948,7 +948,6 @@ strong
     max-width: 45%;
     flex: 45%;
     position: relative;
-    margin-left: 10%;
 }
 
 .contenedor-imagen-sn
@@ -957,12 +956,16 @@ strong
     margin: 0 0 1em;
     max-width: 100%;
     display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
 
 .imagen-sobre-nosotros
 {
     border-radius: inherit;
-    vertical-align: bottom;
+    vertical-align: middle;
     height: auto;
     max-width: 100%;
     aspect-ratio: auto 580 / 680;
@@ -1088,6 +1091,75 @@ strong
     display: block;
 }
 
+.contenedor-lados-contacto
+{
+    margin-top: 130px;
+    margin-bottom: 0px;
+    padding: 0px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactos
+{
+    padding: 0px 0px 130px 0px;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: calc(-30px/2);
+    margin-right: calc(-30px/2);
+    z-index: 0;
+    align-items: center;
+    -webkit-box-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.lado-izquierdo-contacto
+{
+    padding-left: calc(30px/2);
+    padding-right: calc(30px/2);
+    box-sizing: border-box;
+    max-width: 50%;
+    flex: 50%;
+    position: relative;
+}
+
+.lado-izquierdo-contacto>iframe
+{
+    margin-left: 15%;
+}
+
+.lado-derecho-contacto
+{
+    padding-left: calc(30px/2);
+    padding-right: calc(30px/2);
+    box-sizing: border-box;
+    max-width: 50%;
+    flex: 50%;
+    z-index: 0;
+    display: block;
+    position: relative;
+}
+
+.container-textos-contacto
+{
+    padding: 0px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    margin-left: calc(-50px/2);
+    margin-right: calc(-30px/2);
+    align-items: center;
+    -webkit-box-align: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
 .contacto
 {
     width: 500px;
@@ -1148,6 +1220,11 @@ form
 
 @media screen and (max-width: 1199px)
 {
+    .logo-container
+    {
+        margin-left: 10%;
+    }
+
     .contenedor-contenedor-texto
     {
         padding-left: calc(30px/2);
@@ -1272,6 +1349,45 @@ form
         padding-right: calc(30px/2);
         max-width: 50%;
         flex: 50%;
+    }
+    
+    .contenedor-lados-contacto
+    {
+        margin-left: calc(-30px/2);
+        margin-right: calc(-30px/2);
+    }
+
+    .contactos
+    {
+        padding: 0px 0px 70px 0px;
+    }
+    
+    .lado-izquierdo-contacto
+    {
+        padding-left: calc(30px/2);
+        padding-right: calc(30px/2);
+        max-width: 50%;
+        flex: 50%;
+    }
+    
+    .lado-izquierdo-contacto>iframe
+    {
+        margin-left: 15%;
+    }
+    
+    .lado-derecho-contacto
+    {
+        padding-left: calc(30px/2);
+        padding-right: calc(30px/2);
+        max-width: 50%;
+        flex: 50%;
+    }
+    
+    .container-textos-contacto
+    {
+        margin-left: calc(-30px/2);
+        margin-right: calc(-30px/2);
+        margin-right: 15%;
     }
 }
 
@@ -1500,6 +1616,7 @@ form
     {
         margin-left: calc(-30px/2);
         margin-right: calc(-30px/2);
+        align-items: center;
     }
 
     .lado-izquierdo-sn
@@ -1508,9 +1625,31 @@ form
         padding-right: calc(30px/2);
         max-width: 100%;
         flex: 100%;
+        width: 100%;
     }
 
     .lado-derecho-sn
+    {
+        padding-left: calc(30px/2);
+        padding-right: calc(30px/2);
+        max-width: 80%;
+        flex: 80%;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .titulo-sobre-nosotros
+    {
+        text-align: center;
+    }
+
+    .container-textos-sobre-nosotros
+    {
+        margin-left: calc(-30px/2);
+        margin-right: calc(-30px/2);
+        align-items: center;
+    }
+
+    .textos-sobre-nosotros
     {
         padding-left: calc(30px/2);
         padding-right: calc(30px/2);
@@ -1518,20 +1657,56 @@ form
         flex: 100%;
     }
 
-    .titulo-sobre-nosotros
+    .texto
+    {
+        text-align: center;
+    }
 
-    .container-textos-sobre-nosotros
+    .h4
+    {
+        text-align: center;
+    }
+
+    .contenedor-lados-contacto
     {
         margin-left: calc(-30px/2);
         margin-right: calc(-30px/2);
     }
 
-    .textos-sobre-nosotros
+    .contactos
+    {
+        padding: 0px 0px 70px 0px;
+    }
+    
+    .lado-izquierdo-contacto
     {
         padding-left: calc(30px/2);
         padding-right: calc(30px/2);
-        max-width: 50%;
-        flex: 50%;
+        max-width: 100%;
+        flex: 100%;
+    }
+    
+    .lado-izquierdo-contacto>iframe
+    {
+        padding-bottom: 30px;
+        width: 100%;
+        height: 650px;
+        padding-right: 26%;
+    }
+    
+    .lado-derecho-contacto
+    {
+        padding-left: calc(30px/2);
+        padding-right: calc(30px/2);
+        max-width: 100%;
+        flex: 100%;
+    }
+    
+    .container-textos-contacto
+    {
+        margin-left: calc(-30px/2);
+        margin-right: calc(-30px/2);
+        padding-left: 20%;
     }
 }
 
@@ -1545,6 +1720,37 @@ form
     .iframe
     {
         width: 440px;
+    }
+
+    .sobre-nosotros
+    {
+        display: grid;
+    }
+    
+    .container-textos-contacto
+    {
+        margin-left: calc(-30px/2);
+        margin-right: calc(-30px/2);
+    }
+
+    .contacto
+    {
+        width: 90%;
+    }
+
+    .input
+    {
+        width: 90%;
+    }
+
+    .menu
+    {
+        padding-right: 10px;
+    }
+
+    .menu>li
+    {
+        padding: 5px;
     }
 }
 
