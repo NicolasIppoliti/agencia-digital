@@ -647,61 +647,6 @@ strong
     background-image: url(../assets/img/ryota-nagasaka-w_5TUm7Xa00-unsplash2.jpg);
 }
 
-.contenedor-sobre-nosotros
-{
-    margin-top: 130px;
-    margin-bottom: 0px;
-    padding: 0px;
-    position: relative;
-    box-sizing: border-box;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.sobre-nosotros
-{
-    position: relative;
-    width: 100%;
-    display: flex;
-    margin-right: calc(-50px/2);
-    margin-left: calc(-50px/2);
-    box-sizing: border-box;
-    -webkit-box-align: center;
-    align-items: center;
-}
-
-.lado-izquierdo-sn
-{
-    padding-left: calc(50px/2);
-    padding-right: calc(50px/2);
-    box-sizing: border-box;
-    max-width: 45%;
-    flex: 45%;
-    position: relative;
-}
-
-.contenedor-imagen-sn
-{
-    margin-bottom: 0;
-    margin: 0 0 1em;
-    max-width: 100%;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-}
-
-.imagen-sobre-nosotros
-{
-    border-radius: inherit;
-    vertical-align: middle;
-    height: auto;
-    max-width: 100%;
-    aspect-ratio: auto 580 / 680;
-}
-
 .lado-derecho-sn
 {
     padding-left: calc(50px/2);
@@ -1158,11 +1103,6 @@ form
     {
         min-height: 0;
         box-sizing: border-box;
-        height: 70px;
-    }
-
-    .container
-    {
         height: 70px;
     }
 
