@@ -11,7 +11,7 @@
 .bgcolor.scrolled
 {
     background-color: #ffffff !important;
-    transition: ease-in-out .5s;
+    transition: ease-in-out .1s;
     width: 100%;
 }
 
@@ -140,7 +140,7 @@
 
 .logo-sticky
 {
-    transition: ease-in-out .5s;
+    transition: ease-in-out .1s;
     display: none;
     transform: translateY(-20px);
     height: inherit;
@@ -149,7 +149,7 @@
     max-width: 100%;
 }
 
-@media screen and (min-width: 950px)
+@media screen and (min-width: 992px)
 {
     .mobile
     {
@@ -162,7 +162,7 @@
     .bgcolor.scrolled
     {
         background-color: #ffffff !important;
-        transition: ease-in-out .5s;
+        transition: ease-in-out .1s;
         width: 100%;
         height: 85px;
     }

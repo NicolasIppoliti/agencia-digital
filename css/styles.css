@@ -6,7 +6,7 @@
 
 .bgcolor.scrolled {
   background-color: #ffffff !important;
-  transition: ease-in-out .5s;
+  transition: ease-in-out .1s;
   width: 100%; }
 
 .desktop {
@@ -101,7 +101,7 @@
   aspect-ratio: auto 250 / 66; }
 
 .logo-sticky {
-  transition: ease-in-out .5s;
+  transition: ease-in-out .1s;
   display: none;
   transform: translateY(-20px);
   height: inherit;
@@ -116,7 +116,7 @@
 @media screen and (max-width: 991px) {
   .bgcolor.scrolled {
     background-color: #ffffff !important;
-    transition: ease-in-out .5s;
+    transition: ease-in-out .1s;
     width: 100%;
     height: 85px; }
   .offcanvas-end {
