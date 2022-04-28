@@ -1,3 +1,36 @@
+.btn--background-color {
+  background-color: #696cff; }
+
+.btn--border-color {
+  background-color: #696cff; }
+
+.background-contenedor, .background-contenedor-1, .background-contenedor-2, .background-contenedor-3, .background-contenedor-4, .background-contenedor-5 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%; }
+
+.background-contenedor-1 {
+  background-image: url(../assets/img/bass-1.png); }
+
+.background-contenedor-2 {
+  background-image: url(../assets/img/ryota-nagasaka-w_5TUm7Xa00-unsplash2.jpg); }
+
+.background-contenedor-3 {
+  background-image: url(../assets/img/campaign-creators-qCi_MzVODoU-unsplash.jpg); }
+
+.background-contenedor-4 {
+  background-image: url(../assets/img/laura-chouette-14u6sJ6KiyI-unsplash.jpg); }
+
+.background-contenedor-5 {
+  background-image: url(../assets/img/nadine-shaabana-DrPcfuaeYFQ-unsplash.jpg); }
+
+.titulo-h2 {
+  justify-content: center;
+  align-items: center; }
+
 .header {
   display: block;
   position: relative;
@@ -135,6 +168,39 @@
     min-height: 0;
     box-sizing: border-box;
     height: 70px; } }
+
+.btn--background-color {
+  background-color: #696cff; }
+
+.btn--border-color {
+  background-color: #696cff; }
+
+.background-contenedor, .background-contenedor-1, .background-contenedor-2, .background-contenedor-3, .background-contenedor-4, .background-contenedor-5 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%; }
+
+.background-contenedor-1 {
+  background-image: url(../assets/img/bass-1.png); }
+
+.background-contenedor-2 {
+  background-image: url(../assets/img/ryota-nagasaka-w_5TUm7Xa00-unsplash2.jpg); }
+
+.background-contenedor-3 {
+  background-image: url(../assets/img/campaign-creators-qCi_MzVODoU-unsplash.jpg); }
+
+.background-contenedor-4 {
+  background-image: url(../assets/img/laura-chouette-14u6sJ6KiyI-unsplash.jpg); }
+
+.background-contenedor-5 {
+  background-image: url(../assets/img/nadine-shaabana-DrPcfuaeYFQ-unsplash.jpg); }
+
+.titulo-h2 {
+  justify-content: center;
+  align-items: center; }
 
 * {
   margin: 0;
@@ -945,3 +1011,36 @@
   .iframe {
     width: 350px;
     height: 250px; } }
+
+.btn--background-color {
+  background-color: #696cff; }
+
+.btn--border-color {
+  background-color: #696cff; }
+
+.background-contenedor, .background-contenedor-1, .background-contenedor-2, .background-contenedor-3, .background-contenedor-4, .background-contenedor-5 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%; }
+
+.background-contenedor-1 {
+  background-image: url(../assets/img/bass-1.png); }
+
+.background-contenedor-2 {
+  background-image: url(../assets/img/ryota-nagasaka-w_5TUm7Xa00-unsplash2.jpg); }
+
+.background-contenedor-3 {
+  background-image: url(../assets/img/campaign-creators-qCi_MzVODoU-unsplash.jpg); }
+
+.background-contenedor-4 {
+  background-image: url(../assets/img/laura-chouette-14u6sJ6KiyI-unsplash.jpg); }
+
+.background-contenedor-5 {
+  background-image: url(../assets/img/nadine-shaabana-DrPcfuaeYFQ-unsplash.jpg); }
+
+.titulo-h2 {
+  justify-content: center;
+  align-items: center; }
