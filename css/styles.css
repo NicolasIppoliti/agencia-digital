@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 .btn--background-color {
   background-color: #696cff; }
 
@@ -1044,3 +1049,276 @@
 .titulo-h2 {
   justify-content: center;
   align-items: center; }
+
+.btn--background-color {
+  background-color: #696cff; }
+
+.btn--border-color {
+  background-color: #696cff; }
+
+.background-contenedor, .background-contenedor-1, .background-contenedor-2, .background-contenedor-3, .background-contenedor-4, .background-contenedor-5 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%; }
+
+.background-contenedor-1 {
+  background-image: url(../assets/img/bass-1.png); }
+
+.background-contenedor-2 {
+  background-image: url(../assets/img/ryota-nagasaka-w_5TUm7Xa00-unsplash2.jpg); }
+
+.background-contenedor-3 {
+  background-image: url(../assets/img/campaign-creators-qCi_MzVODoU-unsplash.jpg); }
+
+.background-contenedor-4 {
+  background-image: url(../assets/img/laura-chouette-14u6sJ6KiyI-unsplash.jpg); }
+
+.background-contenedor-5 {
+  background-image: url(../assets/img/nadine-shaabana-DrPcfuaeYFQ-unsplash.jpg); }
+
+.titulo-h2 {
+  justify-content: center;
+  align-items: center; }
+
+.fondo-azul {
+  background-color: #0d1c2f; }
+
+.titulosn {
+  position: relative;
+  box-sizing: border-box;
+  height: 80px;
+  overflow-wrap: break-word;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 1.3em;
+  display: block; }
+
+.subtitulosn {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 0;
+  overflow-wrap: break-word;
+  display: block;
+  padding: 0; }
+
+.cardsn {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
+
+.cardsn * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.cardsn .profile-image {
+  padding: 15% 10% 0; }
+
+.cardsn .profile-image img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 50%;
+  max-width: 40%; }
+
+.cardsn figcaption {
+  padding: 5% 10% 15%; }
+
+.cardsn h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0; }
+
+.cardsn h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px; }
+
+.cardsn .icons i {
+  color: #999;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1.5em; }
+
+.cardsn .icons i:hover {
+  color: #555; }
+
+.cardsn .icons i a {
+  text-decoration: none; }
+
+.icon-wrap {
+  position: relative; }
+  .icon-wrap .icon {
+    width: 60px;
+    height: 60px; }
+  .icon-wrap .icon span {
+    font-size: 20px; }
+  .icon-wrap .icon.bg-info {
+    border: 5px solid #92dcfe; }
+  .icon-wrap .icon.bg-success {
+    border: 5px solid #baf2ce; }
+  .icon-wrap .icon.bg-warning {
+    border: 5px solid #ffefd6; }
+
+.contenedor-sn {
+  max-width: fit-content;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-align: center;
+  display: block; }
+
+.btn--background-color {
+  background-color: #696cff; }
+
+.btn--border-color {
+  background-color: #696cff; }
+
+.background-contenedor, .background-contenedor-1, .background-contenedor-2, .background-contenedor-3, .background-contenedor-4, .background-contenedor-5 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%; }
+
+.background-contenedor-1 {
+  background-image: url(../assets/img/bass-1.png); }
+
+.background-contenedor-2 {
+  background-image: url(../assets/img/ryota-nagasaka-w_5TUm7Xa00-unsplash2.jpg); }
+
+.background-contenedor-3 {
+  background-image: url(../assets/img/campaign-creators-qCi_MzVODoU-unsplash.jpg); }
+
+.background-contenedor-4 {
+  background-image: url(../assets/img/laura-chouette-14u6sJ6KiyI-unsplash.jpg); }
+
+.background-contenedor-5 {
+  background-image: url(../assets/img/nadine-shaabana-DrPcfuaeYFQ-unsplash.jpg); }
+
+.titulo-h2 {
+  justify-content: center;
+  align-items: center; }
+
+.gr-1 {
+  background: linear-gradient(170deg, #01E4F8 0%, #1D3EDE 100%); }
+
+.gr-2 {
+  background: linear-gradient(170deg, #B4EC51 0%, #429321 100%); }
+
+.gr-3 {
+  background: linear-gradient(170deg, #C86DD7 0%, #3023AE 100%); }
+
+* {
+  transition: .5s; }
+
+.h-50 {
+  height: 50vh !important; }
+
+.align-middle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.column {
+  margin-top: 3rem;
+  padding-left: 3rem; }
+  .column:hover {
+    padding-left: 0; }
+    .column:hover .card .txt {
+      margin-left: 1rem; }
+      .column:hover .card .txt h1, .column:hover .card .txt p {
+        color: white;
+        opacity: 1; }
+    .column:hover a {
+      color: white; }
+      .column:hover a:after {
+        width: 10%; }
+
+.card {
+  min-height: 170px;
+  margin: 0;
+  padding: 1.7rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color: black;
+  letter-spacing: .05rem;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.27); }
+  .card .txt {
+    margin-left: -3rem;
+    z-index: 1; }
+    .card .txt h1 {
+      font-size: 1.5rem;
+      font-weight: 300;
+      text-transform: uppercase; }
+    .card .txt p {
+      font-size: .7rem;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0rem;
+      margin-top: 33px;
+      opacity: 0;
+      color: white; }
+  .card a {
+    z-index: 3;
+    font-size: .7rem;
+    color: black;
+    margin-left: 1rem;
+    position: relative;
+    bottom: -.5rem;
+    text-transform: uppercase; }
+    .card a:after {
+      content: "";
+      display: inline-block;
+      height: 0.5em;
+      width: 0;
+      margin-right: -100%;
+      margin-left: 10px;
+      border-top: 1px solid white;
+      transition: .5s; }
+  .card .ico-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  .card i {
+    position: relative;
+    right: -50%;
+    top: 60%;
+    font-size: 12rem;
+    line-height: 0;
+    opacity: .2;
+    color: white;
+    z-index: 0; }
