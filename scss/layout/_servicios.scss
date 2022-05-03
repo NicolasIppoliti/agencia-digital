@@ -108,3 +108,11 @@ i{
     z-index: 0;
 }
 }
+
+@media screen and (max-width: 991px) {
+    .h-50{height: 100vh !important;}
+}
+
+@media screen and (max-width: 773px) {
+    .h-50{height: 140vh !important;}
+}
