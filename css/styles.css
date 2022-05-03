@@ -1325,8 +1325,20 @@
 
 @media screen and (max-width: 991px) {
   .h-50 {
-    height: 100vh !important; } }
+    height: 100vh !important; }
+  .column {
+    margin-top: 3rem;
+    padding-left: 0; }
+    .column a {
+      color: white; }
+      .column a:after {
+        width: 10%; }
+  .card .txt {
+    margin-left: 1rem; }
+    .card .txt h1, .card .txt p {
+      color: white;
+      opacity: 1; } }
 
 @media screen and (max-width: 773px) {
   .h-50 {
-    height: 140vh !important; } }
+    height: 130vh !important; } }

@@ -111,8 +111,25 @@ i{
 
 @media screen and (max-width: 991px) {
     .h-50{height: 100vh !important;}
+    .column{
+        margin-top:3rem;
+        padding-left:0;
+            a{
+                color:rgba(255,255,255,1);
+                &:after{
+                width: 10%;
+            }
+            }
+        }
+    .card .txt{
+        margin-left:1rem;
+        h1, p{
+        color:rgba(255,255,255,1);
+        opacity:1;
+        }
+        }
 }
 
 @media screen and (max-width: 773px) {
-    .h-50{height: 140vh !important;}
-}
+    .h-50{height: 130vh !important;}
+    }
