@@ -407,8 +407,6 @@
 
 .numeros
 {
-    margin-left: $lr-margin-30;
-    margin-right: $lr-margin-30;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -796,12 +794,6 @@
         padding: 150px 0px 80px 0px;
     }
     
-    .numeros
-    {
-        margin-left: $lr-margin-30;
-        margin-right: $lr-margin-30;
-    }
-    
     .contenedor-contenedores-resultados
     {
         padding-left: $lr-padding-30;
@@ -849,12 +841,6 @@
         padding-right: $lr-padding-30;
         max-width: 50%;
         flex: 50%;
-    }
-    
-    .contenedor-lados-contacto
-    {
-        margin-left: $lr-margin-30;
-        margin-right: $lr-margin-30;
     }
 
     .contactos
@@ -940,8 +926,8 @@
     .titulo-principal
     {
         font-size: 30px;
-        padding: 0;
         margin: 0;
+        padding: 0;
     }
 
     .subtitulo-principal
@@ -967,6 +953,7 @@
         padding-right: $lr-padding-30;
         max-width: 100%;
         flex: 100%;
+        margin-left: 3%;
     }
 
     .lados-resultados
@@ -996,12 +983,6 @@
     .contenedor-numeros
     {
         padding: 130px 0px 50px 0px;
-    }
-    
-    .numeros
-    {
-        margin-left: $lr-margin-30;
-        margin-right: $lr-margin-30;
     }
     
     .contenedor-contenedores-resultados
@@ -1067,12 +1048,6 @@
         text-align: center;
     }
 
-    .contenedor-lados-contacto
-    {
-        margin-left: $lr-margin-30;
-        margin-right: $lr-margin-30;
-    }
-
     .contactos
     {
         padding: 0px 0px 70px 0px;
@@ -1091,9 +1066,8 @@
         iframe
         {
             padding-bottom: 30px;
-            width: 100%;
+            width: 75%;
             height: 650px;
-            padding-right: 26%;
         }
     }
 
@@ -1176,8 +1150,14 @@
     }
 }
 
-@media screen and (max-width: 443.98px)
+@media screen and (max-width: 500px)
 {
+    .titulo-principal
+    {
+        font-size: 32px;
+        margin-bottom: 5%;
+    }
+
     .contenedor-titulo-principal
     {
         margin-bottom: 30px;
@@ -1192,5 +1172,11 @@
     {
         width: 350px;
         height: 250px;
+    }
+
+    .boton-sobre-nosotros
+    {
+        width: 178.7px;
+        margin: 0;
     }
 }

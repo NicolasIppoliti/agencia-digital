@@ -533,8 +533,6 @@
   box-sizing: border-box; }
 
 .numeros {
-  margin-left: calc(-30px/2);
-  margin-right: calc(-30px/2);
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -823,9 +821,6 @@
   .contenedor-numeros {
     margin-top: -150px;
     padding: 150px 0px 80px 0px; }
-  .numeros {
-    margin-left: calc(-30px/2);
-    margin-right: calc(-30px/2); }
   .contenedor-contenedores-resultados {
     padding-left: calc(30px/2);
     padding-right: calc(30px/2);
@@ -854,9 +849,6 @@
     padding-right: calc(30px/2);
     max-width: 50%;
     flex: 50%; }
-  .contenedor-lados-contacto {
-    margin-left: calc(-30px/2);
-    margin-right: calc(-30px/2); }
   .contactos {
     padding: 0px 0px 70px 0px; }
   .lado-izquierdo-contacto {
@@ -900,8 +892,8 @@
     height: 100px; }
   .titulo-principal {
     font-size: 30px;
-    padding: 0;
-    margin: 0; }
+    margin: 0;
+    padding: 0; }
   .subtitulo-principal {
     margin: 0;
     padding: 0; }
@@ -914,7 +906,8 @@
     padding-left: calc(30px/2);
     padding-right: calc(30px/2);
     max-width: 100%;
-    flex: 100%; }
+    flex: 100%;
+    margin-left: 3%; }
   .lados-resultados {
     padding-left: calc(30px/2);
     padding-right: calc(30px/2);
@@ -929,9 +922,6 @@
     height: 300px; }
   .contenedor-numeros {
     padding: 130px 0px 50px 0px; }
-  .numeros {
-    margin-left: calc(-30px/2);
-    margin-right: calc(-30px/2); }
   .contenedor-contenedores-resultados {
     padding-left: calc(30px/2);
     padding-right: calc(30px/2);
@@ -968,9 +958,6 @@
     text-align: center; }
   .h4 {
     text-align: center; }
-  .contenedor-lados-contacto {
-    margin-left: calc(-30px/2);
-    margin-right: calc(-30px/2); }
   .contactos {
     padding: 0px 0px 70px 0px; }
   .lado-izquierdo-contacto {
@@ -980,9 +967,8 @@
     flex: 100%; }
   .lado-izquierdo-contacto iframe {
     padding-bottom: 30px;
-    width: 100%;
-    height: 650px;
-    padding-right: 26%; }
+    width: 75%;
+    height: 650px; }
   .lado-derecho-contacto {
     padding-left: calc(30px/2);
     padding-right: calc(30px/2);
@@ -1022,14 +1008,20 @@
     .menu li {
       padding: 5px; } }
 
-@media screen and (max-width: 443.98px) {
+@media screen and (max-width: 500px) {
+  .titulo-principal {
+    font-size: 32px;
+    margin-bottom: 5%; }
   .contenedor-titulo-principal {
     margin-bottom: 30px; }
   .contenedor-iframe {
     height: 250px; }
   .iframe {
     width: 350px;
-    height: 250px; } }
+    height: 250px; }
+  .boton-sobre-nosotros {
+    width: 178.7px;
+    margin: 0; } }
 
 .btn--background-color {
   background-color: #696cff; }
